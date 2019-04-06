@@ -1,0 +1,39 @@
+C:\Users\user\.atom\packages\emmet\lib\emmet.coffee:139 Loading Emmet extensions from ~/emmet
+C:\Users\user\.atom\packages\emmet\lib\emmet.coffee:156 Emmet: no such extension folder: C:\Users\user/emmet
+loadExtensions @ C:\Users\user\.atom\packages\emmet\lib\emmet.coffee:156
+C:\Users\user\.atom\packages\linter-anylint\lib\linter-anylint.js:93 TypeError: Cannot read property '0' of undefined
+    at Object.loadRc (file:///C:/Users/user/.atom/packages/linter-anylint/lib/linter-anylint.js:77:50)
+    at file:///C:/Users/user/.atom/packages/linter-anylint/lib/linter-anylint.js:53:92
+    at Config.observeKeyPath (C:\Users\user\AppData\Local\atom\app-1.35.1\resources\app\static\<embedded>:11:335155)
+    at Config.observe (C:\Users\user\AppData\Local\atom\app-1.35.1\resources\app\static\<embedded>:11:329666)
+    at Object.activate (file:///C:/Users/user/.atom/packages/linter-anylint/lib/linter-anylint.js:53:40)
+    at Package.activateNow (C:\Users\user\AppData\Local\atom\app-1.35.1\resources\app\static\<embedded>:11:3016483)
+    at measure (C:\Users\user\AppData\Local\atom\app-1.35.1\resources\app\static\<embedded>:11:3015895)
+    at Package.measure (C:\Users\user\AppData\Local\atom\app-1.35.1\resources\app\static\<embedded>:11:3013526)
+    at activationPromise.activationPromise.Promise (C:\Users\user\AppData\Local\atom\app-1.35.1\resources\app\static\<embedded>:11:3015755)
+    at new Promise (<anonymous>)
+    at Package.activate (C:\Users\user\AppData\Local\atom\app-1.35.1\resources\app\static\<embedded>:11:3015698)
+    at PackageManager.activatePackage (C:\Users\user\AppData\Local\atom\app-1.35.1\resources\app\static\<embedded>:11:382643)
+    at config.transactAsync (C:\Users\user\AppData\Local\atom\app-1.35.1\resources\app\static\<embedded>:11:382259)
+    at Config.transactAsync (C:\Users\user\AppData\Local\atom\app-1.35.1\resources\app\static\<embedded>:11:332443)
+    at PackageManager.activatePackages (C:\Users\user\AppData\Local\atom\app-1.35.1\resources\app\static\<embedded>:11:382209)
+    at PackageManager.activate (C:\Users\user\AppData\Local\atom\app-1.35.1\resources\app\static\<embedded>:11:381827)
+    at t.loadState.then (C:\Users\user\AppData\Local\atom\app-1.35.1\resources\app\static\<embedded>:1:688022)
+    at <anonymous>
+C:\Users\user\.atom\packages\linter-flow-plus\build\index.js:69 activating linter-flow-plus
+C:\Users\user\.atom\packages\linter-hsp3\lib\provider.coffee:18 ok provider
+C:\Users\user\.atom\packages\linter\lib\linter-registry.js:155 [Linter] Error running tidy Error: Failed to spawn command `tidy`. Make sure `tidy` is installed and on your PATH
+    at C:\Users\user\.atom\packages\linter-tidy\node_modules\atom-linter\lib\helpers.js:130:24
+    at <anonymous>
+(anonymous) @ C:\Users\user\.atom\packages\linter\lib\linter-registry.js:155
+C:\Users\user\.atom\packages\linter\lib\linter-registry.js:155 [Linter] Error running tidy Error: Failed to spawn command `tidy`. Make sure `tidy` is installed and on your PATH
+    at C:\Users\user\.atom\packages\linter-tidy\node_modules\atom-linter\lib\helpers.js:130:24
+    at <anonymous>
+(anonymous) @ C:\Users\user\.atom\packages\linter\lib\linter-registry.js:155
+internal/process/warning.js:18 (node:816) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 exit listeners added. Use emitter.setMaxListeners() to increase limit
+writeOut @ internal/process/warning.js:18
+C:\Users\user\.atom\packages\linter\lib\linter-registry.js:155 [Linter] Error running tidy Error: Failed to spawn command `tidy`. Make sure `tidy` is installed and on your PATH
+    at C:\Users\user\.atom\packages\linter-tidy\node_modules\atom-linter\lib\helpers.js:130:24
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+(anonymous) @ C:\Users\user\.atom\packages\linter\lib\linter-registry.js:155
